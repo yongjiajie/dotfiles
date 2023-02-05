@@ -1,6 +1,7 @@
+[user]
+	username = yongjiajie
 [push]
 	autoSetupRemote = true
-
 [pull]
 	rebase = false
 	ff = only
