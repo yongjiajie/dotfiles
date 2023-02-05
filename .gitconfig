@@ -1,0 +1,6 @@
+[push]
+	autoSetupRemote = true
+
+[pull]
+	rebase = false
+	ff = only

@@ -1,0 +1,4 @@
+package brew
+package https://github.com/jhillyerd/plugin-git
+theme clearance
+theme default
