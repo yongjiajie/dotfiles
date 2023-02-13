@@ -50,10 +50,7 @@ tmux
 
 ### neovim
 
-- [packer.nvim](https://github.com/wbthomason/packer.nvim)
-- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
-
-You will need to run `:PackerSync` in `nvim` to update the packages in Packer.
+You will need to install [packer.vnim](https://github.com/wbthomason/packer.nvim). Then, run `:PackerSync` in `nvim` to install the packages using Packer.
 
 ## Shortcuts
 
