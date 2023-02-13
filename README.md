@@ -22,7 +22,7 @@ Install `brew` using the instructions on their [homepage](https://brew.sh/).
 Install brew casks:
 
 ```bash
-brew install fish nvim ripgrep tmux
+brew install fish nvim ripgrep tmux reattach-to-user-namespace
 
 ```
 
@@ -43,9 +43,8 @@ Configure your default shell to `tmux` so we can use it in the Terminal. You can
 Then, run the following commands:
 
 ```bash
-chsh -s /usr/local/tmux
+chsh -s /opt/homebrew/bin/tmux
 tmux kill-server
-tmux
 ```
 
 ### neovim
