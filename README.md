@@ -8,6 +8,7 @@ My collection of dotfiles.
 - [neovim](https://github.com/neovim/neovim)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [tmux](https://github.com/tmux/tmux)
+- [kitty](https://sw.kovidgoyal.net/kitty/)
 - [fish](https://github.com/fish-shell/fish-shell)
 - [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish)
 
@@ -22,7 +23,7 @@ Install `brew` using the instructions on their [homepage](https://brew.sh/).
 Install brew casks:
 
 ```bash
-brew install fish nvim ripgrep tmux reattach-to-user-namespace
+brew install fish nvim ripgrep tmux reattach-to-user-namespace kitty
 
 ```
 
@@ -45,6 +46,14 @@ Then, run the following commands:
 ```bash
 chsh -s /opt/homebrew/bin/tmux
 tmux kill-server
+```
+
+### kitty
+
+Install my theme for kitty using:
+
+```bash
+kitty +kitten themes --reload-in=all Rosé Pine`
 ```
 
 ### neovim
