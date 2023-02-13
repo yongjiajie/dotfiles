@@ -38,7 +38,9 @@ omf install clearance https://github.com/jhillyerd/plugin-git
 
 ### tmux
 
-Configure your default shell to `tmux` so we can use it in the Terminal, by adding `/usr/local/tmux` to `/etc/shells`. Run the following commands:
+Configure your default shell to `tmux` so we can use it in the Terminal. You can find the path of `tmux` by using `which tmux`, then add the path to `/etc/shells`. 
+
+Then, run the following commands:
 
 ```bash
 chsh -s /usr/local/tmux
