@@ -36,6 +36,9 @@ return require('packer').startup(function(use)
   -- vim-fugitive
   use ('tpope/vim-fugitive')
 
+  -- nvim-telescope
+  use ('nvim-telescope/telescope-file-browser.nvim')
+
   -- lsp-zero
   use {
       'VonHeikemen/lsp-zero.nvim',
