@@ -1,4 +1,4 @@
-# dotfiles
+#  dotfiles
 
 My collection of dotfiles.
 
@@ -91,7 +91,8 @@ Some memorable shortcuts.
 
 ### Telescope
 
-- `<leader>pv`: Go to file viewer.
+- `<leader>pv`: Go to file viewer, starting at the current path.
+- `<leader>pvc`: Go to file viewer, starting at the current working directory.
 - `<leader>pf`: Find files.
 - `<leader>ps`: Find files containing string using `grep`.
 - `<C-p>`: Find git files?
