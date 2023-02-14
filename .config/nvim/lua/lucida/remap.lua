@@ -1,7 +1,9 @@
 vim.g.mapleader = " "
 
 -- Go back to file navigation
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>pv", function()
+  vim.cmd(":Telescope file_browser")
+end)
 
 -- Center after naviating screens
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
