@@ -76,6 +76,8 @@ Some memorable shortcuts.
 - `<leader>k`: Next local QuickFix suggestion.
 - `<leader>j`: Previous local QuickFix suggestion.
 - `<leader>s`: Replace selected string using regex.
+- `<C-o>`: Jump to previous cursor position.
+- `<C-i>`: Jump to previous cursor position.
 
 ### tmux
 
@@ -114,6 +116,16 @@ Some memorable shortcuts.
 - `<C-p>`: Go to previous suggestion.
 - `<C-n>`: Go to next suggestion.
 - `<C-y>`: Choose current suggestion.
+* `K`: Displays hover information about the symbol under the cursor in a floating window.
+* `gd`: Jumps to the definition of the symbol under the cursor.
+* `gi`: Lists all the implementations for the symbol under the cursor in the quickfix window.
+* `go`: Jumps to the definition of the type of the symbol under the cursor.
+* `gr`: Lists all the references to the symbol under the cursor in the quickfix window.
+* `<C-k>`: Displays signature information about the symbol under the cursor in a floating window.
+* `<F2>`: Renames all references to the symbol under the cursor.
+* `gl`: Show diagnostics in a floating window.
+* `[d`: Move to the previous diagnostic in the current buffer.
+* `]d`: Move to the next diagnostic.
 
 ## Thanks to
 
