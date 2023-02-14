@@ -2,12 +2,8 @@ vim.g.mapleader = " "
 
 -- Go back to file navigation
 vim.keymap.set("n", "<leader>pv", function()
-  vim.cmd(":Telescope file_browser path=%:p:h")
-end)
-
-vim.keymap.set("n", "<leader>pvc", function()
   vim.cmd(":Telescope file_browser")
-end)
+end, { noremap = true })
 
 -- Center after naviating screens
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
