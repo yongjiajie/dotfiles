@@ -1,4 +1,6 @@
-require('telescope').setup {
+local telescope = require('telescope')
+
+telescope.setup {
   extensions = {
     file_browser = {
       hijack_netrw = true,
@@ -9,4 +11,6 @@ require('telescope').setup {
   }
 }
 
-require('telescope').load_extension 'file_browser'
+telescope.load_extension('file_browser')
+
+vim.keymap.set("n", "<leader>pv", telescope.extensions.file_browser.file_browser, {}) 
