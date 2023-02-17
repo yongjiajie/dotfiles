@@ -5,8 +5,6 @@ telescope.setup {
     file_browser = {
       hijack_netrw = true,
       hidden = true,
-      collapse_dirs = true,
-      respect_gitignore = true,
     }
   }
 }
