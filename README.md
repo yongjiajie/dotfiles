@@ -114,6 +114,20 @@ Some memorable shortcuts.
 * `gl`: Show diagnostics in a floating window.
 * `[d`: Move to the previous diagnostic in the current buffer.
 * `]d`: Move to the next diagnostic.
+### kitty
+
+- <C-S-Enter>: New window.
+- <C-S-n>: New OS window.
+- <C-S-w>: Close window.
+- <C-S-]>: Next window.
+- <C-S-[>: Previous window.
+- <C-S-F7>: Visually focus window.
+- <C-S-F8>: Visually swap window.
+- <C-S-[1-9]>: Focus specific window, clockwise from the top-left.
+- <F5>: Split current window vertically.
+- <F6>: Split current window horitzontally.
+- <F9>: Detach window, prompting where it should go.
+- <F12>: Close other windows in current tab.
 
 ## Thanks to
 
