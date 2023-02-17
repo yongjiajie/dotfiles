@@ -7,7 +7,6 @@ My collection of dotfiles.
 - [brew](https://github.com/Homebrew/brew)
 - [neovim](https://github.com/neovim/neovim)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
-- [tmux](https://github.com/tmux/tmux)
 - [kitty](https://sw.kovidgoyal.net/kitty/)
 - [fish](https://github.com/fish-shell/fish-shell)
 - [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish)
@@ -23,7 +22,7 @@ Install `brew` using the instructions on their [homepage](https://brew.sh/).
 Install brew casks:
 
 ```bash
-brew install fish nvim ripgrep tmux reattach-to-user-namespace kitty
+brew install fish nvim ripgrep reattach-to-user-namespace kitty
 
 ```
 
@@ -37,15 +36,14 @@ Install 'Oh My Fish' packages:
 omf install clearance https://github.com/jhillyerd/plugin-git
 ```
 
-### tmux
+### fish
 
-Configure your default shell to `tmux` so we can use it in the Terminal. You can find the path of `tmux` by using `which tmux`, then add the path to `/etc/shells`. 
+Configure your default shell to `fish` so we can use it in the Terminal. You can find the path of `fish` by using `which fish`, then add the path to `/etc/shells`. 
 
 Then, run the following commands:
 
 ```bash
-chsh -s /opt/homebrew/bin/tmux
-tmux kill-server
+chsh -s <path>
 ```
 
 ### kitty
@@ -78,16 +76,6 @@ Some memorable shortcuts.
 - `<leader>s`: Replace selected string using regex.
 - `<C-o>`: Jump to previous cursor position.
 - `<C-i>`: Jump to previous cursor position.
-
-### tmux
-
-- `<C-f>`: Change folders.
-- `<C-b>`: Tab navigation mode, follow with `n` (next) or `p` (previous).
-- `<C-b>%`: Split pane vertically.
-- `<C-b>"`: Split pane horizontally.
-- `<C-b>o`: Switch to next pane.
-- `<C-b>;`: Alternate between pane.
-- `<C-b>x`: Close current pane.
 
 ### Telescope
 
