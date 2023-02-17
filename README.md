@@ -127,7 +127,8 @@ Some memorable shortcuts.
 - <C-S-[1-9]>: Focus specific window, clockwise from the top-left.
 - <F5>: Split current window vertically.
 - <F6>: Split current window horitzontally.
-- <F9>: Detach window, prompting where it should go.
+- <F9>: Change the title of the active tab.
+- <F10>: Detach window, prompting where it should go.
 - <F12>: Close other windows in current tab.
 
 ## Thanks to
