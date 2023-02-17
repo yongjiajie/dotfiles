@@ -125,6 +125,7 @@ Some memorable shortcuts.
 - <C-S-F7>: Visually focus window.
 - <C-S-F8>: Visually swap window.
 - <C-S-[1-9]>: Focus specific window, clockwise from the top-left.
+- <C-S-l>: Toggle between layouts.
 - <F5>: Split current window vertically.
 - <F6>: Split current window horitzontally.
 - <F9>: Change the title of the active tab.
