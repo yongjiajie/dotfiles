@@ -21,9 +21,6 @@ vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 -- Do not use Q to exit vim
 vim.keymap.set("n", "Q", "<nop>")
 
--- Change folders using tmux
-vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
-
 -- Format using LSP
 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
