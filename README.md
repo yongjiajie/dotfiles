@@ -82,7 +82,7 @@ Some memorable shortcuts.
 - `<leader>pv`: Go to file viewer, starting at the current path.
 - `<leader>pf`: Find files.
 - `<leader>ps`: Find files containing string using `grep`.
-- `<C-p>`: Find git files?
+- `<C-p>`: Find git files.
 
 ### undotree
 
