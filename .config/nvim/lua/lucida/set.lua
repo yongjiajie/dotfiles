@@ -30,11 +30,5 @@ vim.opt.scrolloff = 8
 -- Updates
 vim.opt.updatetime = 50
 
--- Guiding Column
-vim.opt.colorcolumn = "80"
-
 -- Leader
 vim.g.mapleader = " "
-
--- Cursor
-vim.opt.guicursor = ""
