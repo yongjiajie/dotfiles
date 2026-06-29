@@ -51,18 +51,18 @@
   "gitCacheTtlSeconds": 5,
   "minimalistMode": true,
   "powerline": {
-    "enabled": false,
+    "enabled": true,
     "separators": [
-      ""
+      ""
     ],
     "separatorInvertBackground": [
       false
     ],
     "startCaps": [
-      ""
+      ""
     ],
     "endCaps": [
-      ""
+      ""
     ],
     "theme": "catppuccin",
     "autoAlign": false,
