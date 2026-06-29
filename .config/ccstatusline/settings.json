@@ -1,0 +1,76 @@
+{
+  "version": 3,
+  "lines": [
+    [
+      {
+        "id": "5",
+        "type": "git-branch",
+        "color": "#eed49f"
+      },
+      {
+        "id": "7",
+        "type": "git-changes",
+        "color": "#8bd5ca"
+      }
+    ],
+    [
+      {
+        "id": "af3e5f39-3c95-403c-a0a7-deee81c20584",
+        "type": "model",
+        "backgroundColor": "#cad3f5"
+      },
+      {
+        "id": "552147fe-b42a-42c7-99d4-40f4bf41c7eb",
+        "type": "session-cost",
+        "backgroundColor": "#ed8796"
+      }
+    ],
+    [
+      {
+        "id": "c71546e6-5a8b-4269-b433-5ffff525504b",
+        "type": "context-percentage-usable",
+        "backgroundColor": "#8bd5ca"
+      },
+      {
+        "id": "82849270-e557-45c8-a785-a0959ce0dc40",
+        "type": "tokens-input",
+        "backgroundColor": "#a6da95"
+      },
+      {
+        "id": "cb49d78f-f503-47d6-a789-e34902482bd9",
+        "type": "tokens-output",
+        "backgroundColor": "#eed49f"
+      }
+    ]
+  ],
+  "flexMode": "full-minus-40",
+  "compactThreshold": 60,
+  "colorLevel": 2,
+  "defaultPadding": " ",
+  "inheritSeparatorColors": false,
+  "globalBold": false,
+  "gitCacheTtlSeconds": 5,
+  "minimalistMode": false,
+  "powerline": {
+    "enabled": true,
+    "separators": [
+      ""
+    ],
+    "separatorInvertBackground": [
+      false
+    ],
+    "startCaps": [
+      ""
+    ],
+    "endCaps": [
+      ""
+    ],
+    "theme": "catppuccin",
+    "autoAlign": false,
+    "continueThemeAcrossLines": false
+  },
+  "installation": {
+    "method": "auto-update",
+    "packageManager": "npm"
+  }
+}
